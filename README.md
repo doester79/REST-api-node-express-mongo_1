@@ -1,4 +1,4 @@
 # rest-api-node-express-mongo
 
-#need to add .env file in order to connect to mongodb could datababse. 
-#it contains login .
+#need to use .env file from local folder in order to connect to mongodb cloud datababse.
+#it contains login info.
