@@ -1,8 +1,8 @@
 const express = require('express');
-const router = express.Router();
+const router = express.Router();            //router obj to handle requests
 const Post = require('../models/Post');
 
-//Gets back posts
+//Gets posts
 router.get('/', async (req, res)=>{
     try{
         const posts = await Post.find();

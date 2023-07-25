@@ -1,5 +1,7 @@
 npm init                //creates json packages
-npm install express nodemon
+npm install express nodemon     //automatically restarts server every time there are changes to files instead of manually doing it.
 npm install mongoose
 npm install dotenv          //login credentials
 npm install body-parser     //to parse info that was sent back
+
+https://www.youtube.com/watch?v=vjf774RKrLc&t=169s
