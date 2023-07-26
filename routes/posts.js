@@ -12,7 +12,7 @@ router.get('/', async (req, res)=>{
     }
 });
 
-//sumbit a post
+//submit a post
 router.post('/', async (req, res) => {
     const post = new Post({
         title: req.body.title,
